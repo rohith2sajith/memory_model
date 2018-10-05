@@ -1,2 +1,2 @@
 # memory_model
-The Successor Representation
+The Successor Representation Model
