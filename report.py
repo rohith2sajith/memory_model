@@ -65,10 +65,13 @@ class ReportData(object):
 
 
 class Report(object):
+    REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "report.csv")
+    RANDOM_DAMAGE_REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "random_damage_report.csv")
+    SYSTEMATIC_DAMAGE_REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "systematic_damage_report.csv")
     def __init__(self):
-        self.REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "report.csv")
-        self.RANDOM_DAMAGE_REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "random_damage_report.csv")
-        self.SYSTEMATIC_DAMAGE_REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "systematic_damage_report.csv")
+        #self.REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "report.csv")
+        #self.RANDOM_DAMAGE_REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "random_damage_report.csv")
+        #self.SYSTEMATIC_DAMAGE_REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "systematic_damage_report.csv")
         self.start()
 
 
@@ -100,6 +103,17 @@ class Report(object):
     def report_systematic_damage(self,fph_dmg_dgr_rio,fph_dmg_pth_rio):
         with open(self.SYSTEMATIC_DAMAGE_REPORT_FILE_NAME, "a+") as f:
             f.write(f"{fph_dmg_dgr_rio:>12.6},{fph_dmg_pth_rio:>12.6}\n")
+
+    def report_systematic_damagex(self,data):
+        with open(self.SYSTEMATIC_DAMAGE_REPORT_FILE_NAME, "w+") as f:
+            for k in sorted(data):
+                f.write(f"{k:>12.6},{data[k]:>12.6}\n")
+
+    def report_random_damagex(self,data):
+        with open(self.RANDOM_DAMAGE_REPORT_FILE_NAME, "w+") as f:
+            for k in sorted(data):
+                f.write(f"{k:>12.6},{data[k]:>12.6}\n")
+
 class PathReport(object):
     def __init__(self):
         self.REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "path.csv")

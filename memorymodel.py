@@ -94,18 +94,6 @@ class MemoryModel (object):
 
         omnicient_button = tkinter.Button(button_group, text='OMNICIENT SUCCESSOR',width=20,command=self.find_path_handler_omnicient,fg="blue2")
 
-
-
-        #analyze_damage_button = tkinter.Button(button_group, text='ANALYZE DAMAGE',width=20,command=self.analyze_damage_handler)
-        #analyze_damage_systematic_button = tkinter.Button(button_group, text='ANALYZE DAMAGE SYSTEMATIC', width=25, command=self.analyze_damage_systematic_handler)
-        #analyze_gamma_button = tkinter.Button(button_group, text='ANALYZE GAMMA', width=20, command=self.analyze_gamma_handler)
-        #analyze_path_length_button = tkinter.Button(button_group, text='ANALYZE PATH LENGTH', width=20, command=self.analyze_path_length_handler)
-
-        #load_chart_gamma_button = tkinter.Button(button_group, text='LOAD GAMMA CHART', width=30, command=self.load_chart_gamma_handler)
-        #load_chart_search_length_button = tkinter.Button(button_group, text='LOAD SERACH LENGTH CHART', width=30, command=self.load_chart_srearch_length_handler)
-        #load_chart_damage_random_button = tkinter.Button(button_group, text='LOAD DAMAGE RANDOM CHART', width=30, command=self.load_chart_damage_random_handler)
-        #load_chart_damage_systematic_button = tkinter.Button(button_group, text='LOAD DAMAGE SYSTEMATIC CHART', width=30, command=self.load_chart_damage_systematic_handler)
-
         stop_button = tkinter.Button(button_group, text='STOP PATH',width=20,command=self.stop_path_handler,fg="blue2")
 
         learning_button.grid(row=0, column=0)
@@ -115,17 +103,6 @@ class MemoryModel (object):
         stop_button.grid(row=1, column=1)
 
         mark_goal_button.grid(row=2, column=1)
-        #analyze_damage_button.grid(row=1,column=1)
-        #analyze_damage_systematic_button.grid(row=2,column=1)
-        #analyze_gamma_button.grid(row=3, column=1)
-        #analyze_path_length_button.grid(row=4, column=1)
-        #collect_data_button.grid(row=5, column=1)
-
-        #load_chart_gamma_button.grid(row=6, column=1)
-        #load_chart_search_length_button.grid(row=7, column=1)
-        #load_chart_damage_random_button.grid(row=8, column=1)
-        #load_chart_damage_systematic_button.grid(row=9, column=1)
-
 
         return button_group
 
@@ -575,14 +552,83 @@ class MemoryModel (object):
         chart.plot_path_for_gamma_variations(self.run_data_set)
         print("Finished Testing")
 
+    def analyze_damage(self,test_damage_count,damage_list,damage_mode):
+        test_count = 1
+        # for each maze
+        self.damage_manager = None
+        if damage_list:
+            self.damage_generator.set_damage_list(damage_list)
+        test_result = {}
+
+        for mze in config.MAZE_LIST:
+            self.change_maze(mze)  # load the maze
+            damage_it = 0  # no damage
+
+            for damage_it in [0, 1]:  # with and without damage
+                sum_find_path_length = 0
+                damage_degree_ratio = 0
+                damage_path_ratio = 0
+                for i in range(test_count):  # omnicient
+                    self.test_index = i
+                    fp = FindPathParams()
+                    fp.num_directions = self.NUM_DIRECTIONS
+                    fp.special = False
+                    fp.omnicient = False
+                    fp.damage_flag = damage_it
+                    fp.damage_mode = damage_mode
+                    fp.damage_count = test_damage_count
+                    fp.use_new_weight_calc = False
+                    fp.damage_avoid_reward_cell = True
+                    # ui
+                    self.damage_mode_var.set(fp.damage_mode)
+                    self.damage_count_var.set(fp.damage_count)
+                    self.find_path_omnicient(fp)
+
+                    sum_find_path_length += self.rundata.search_length
+                    if damage_it:
+                        self.reportdata.update()
+                        damage_degree_ratio += self.reportdata.fph_dmg_dgr_rio
+                        damage_path_ratio += self.reportdata.fph_dmg_pth_rio
+
+                if not damage_it:  # control mode
+                    self.prev_find_path_search_length = sum_find_path_length / test_count
+                else:
+                    self.prev_find_path_search_length = 0
+                    damage_degree_ratio = damage_degree_ratio / test_count
+                    damage_path_ratio = damage_path_ratio / test_count
+                    test_result[(1 - damage_degree_ratio) * 100] = damage_path_ratio
+        report_file = ""
+        chart_title=""
+        if fp.damage_mode == config.DAMAGE_MODE_SPREAD_CELL:
+            self.reporter.report_systematic_damagex(test_result)
+            report_file = report.Report.SYSTEMATIC_DAMAGE_REPORT_FILE_NAME
+            chart_title = "Systematic"
+        else:
+            self.reporter.report_random_damagex(test_result)
+            report_file = report.Report.RANDOM_DAMAGE_REPORT_FILE_NAME
+            chart_title = "Random"
+        # popup the graph
+
+        chart = graphs.ImpactOfDamage(report_file)
+        chart.plot(chart_title)
+        self.update_status("Done analyzing...")
 
     def analyze_damage_systematic_handler(self):
+        damage_list = [0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.6, 0.05, 0.025, 0]
+        self.analyze_damage(20,damage_list,config.DAMAGE_MODE_SPREAD_CELL)
+
+    def analyze_damage_handler(self):
+        self.analyze_damage(100, None, config.DAMAGE_MODE_SINGLE_CELL)
+
+    def removeme_analyze_damage_systematic_handler(self):
         test_damage_count = 20
         test_count =1
         # for each maze
         self.damage_manager = None
         damage_list = [0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.6, 0.05, 0.025, 0]
         self.damage_generator.set_damage_list(damage_list)
+        test_result = {}
+
         for mze in config.MAZE_LIST:
             self.change_maze(mze)  # load the maze
             damage_it = 0 # no damage
@@ -609,7 +655,7 @@ class MemoryModel (object):
                     self.update_status("Pausing test for 5 sec...")
                     #time.sleep(3)
                     sum_find_path_length += self.rundata.search_length
-                    if damage_it:
+                    if damage_it and not self.stop_path_flag:
                         self.reportdata.update()
                         damage_degree_ratio += self.reportdata.fph_dmg_dgr_rio
                         damage_path_ratio += self.reportdata.fph_dmg_pth_rio
@@ -621,11 +667,13 @@ class MemoryModel (object):
                     self.prev_find_path_search_length =0
                     damage_degree_ratio = damage_degree_ratio/test_count
                     damage_path_ratio = damage_path_ratio/test_count
-                    self.reporter.report_systematic_damage((1-damage_degree_ratio)*100,damage_path_ratio)
+                    test_result[(1-damage_degree_ratio)*100] = damage_path_ratio
+
+        self.reporter.report_systematic_damagex(test_result)
         self.update_status("Done analyzing...")
 
 
-    def analyze_damage_handler(self):
+    def removeme_analyze_damage_handler(self):
         test_damage_count = 100
         test_count =1
         # for each maze
