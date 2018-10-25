@@ -23,6 +23,7 @@ class RunData(object):
         self.time = 0
         self.num_squares = 1
         self.displacements = []
+        self.path=[]
     @staticmethod
     def report_heading():
         return "num_directions,num_traps,search_length,learning_length,time,num_squares,index,displacement"
@@ -39,5 +40,23 @@ class RunData(object):
     def shorter_str(self):
         return f"{self.num_directions},{self.num_traps},{self.search_length},{self.learning_length},{self.time},{self.num_squares}"
 
+class RunDataSet(object):
+
+    def __init__(self):
+        self.data_set = []
+
+    def clear(self):
+        self.data_set.clear()
+
+    def record_data(self,grid,iteration,gamma,paths):
+        id = f"{grid}-{iteration}"
+        self.data_set.append(RunDataEntry(grid,iteration,gamma,paths))
+
+class RunDataEntry(object):
+    def __init__(self,grid,iteration,gamma,paths):
+        self.grid = grid
+        self.iteration = iteration
+        self.gamma = gamma
+        self.paths = paths
 
 

@@ -319,7 +319,6 @@ class Maze(object):
                 self.board[x][y].set_weight(weights[config.NUMBER_OF_CELLS*x+y])
 
     def create_T(self,mouse):
-        print(f"In T {self.board[8][24].is_not_travellable}")
         for i in range (config.NUMBER_OF_CELLS_SQR):
             if not self.board[int(i//config.NUMBER_OF_CELLS)][int(i%config.NUMBER_OF_CELLS)].is_not_travellable:
                 for j in range (-2,3,1):

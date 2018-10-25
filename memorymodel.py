@@ -8,6 +8,8 @@ import maze_maker
 import max_weight_picker
 import utils
 import damager
+import chart_manager
+import graphs
 import tkinter
 import time
 import numpy as np
@@ -21,6 +23,7 @@ from tkinter import StringVar
 from tkinter import DoubleVar
 from datetime import datetime
 from operator import itemgetter
+
 import os
 
 import trap_finder
@@ -37,6 +40,13 @@ class FindPathParams(object):
         self.damageble_cells=None
         self.use_new_weight_calc=False
         self.damage_avoid_reward_cell = False
+        self.run_time_data = FindPathRuntimeData()
+
+class FindPathRuntimeData(object):
+    def __init__(self):
+        self.path=[]
+    def add_path(self,weight):
+        self.path.append(weight)
 
 class MemoryModel (object):
 
@@ -49,6 +59,8 @@ class MemoryModel (object):
 
     def __init__(self):
         self.rundata = rundata.RunData()
+        self.run_data_set = rundata.RunDataSet()
+
         self.marking_reward_space = False
         self.reward_start = [5,(config.NUMBER_OF_CELLS-1)*config.CELL_WIDTH+5,]
 
@@ -76,22 +88,72 @@ class MemoryModel (object):
 
         path_button = tkinter.Button(button_group, text='FIND PATH', width=20, command=self.find_path_handler_regular)
 
-        collect_data_button = tkinter.Button(button_group, text='COLLECT DATA',width=20,command=self.collect_data)
+        #collect_data_button = tkinter.Button(button_group, text='COLLECT DATA',width=20,command=self.collect_data)
         special_path_button = tkinter.Button(button_group, text='SPECIAL PATH',width=20,command=self.find_special_path_handler)
         mark_goal_button = tkinter.Button(button_group, text='SELECT REWARD SPACE',width=20,command=self.start_marking_reward_handler)
+
         omnicient_button = tkinter.Button(button_group, text='OMNICIENT SUCCESSOR',width=20,command=self.find_path_handler_omnicient)
-        analyze_damage_button = tkinter.Button(button_group, text='ANALYZE DAMAGE',width=20,command=self.analyze_damage_handler)
+
+
+
+        #analyze_damage_button = tkinter.Button(button_group, text='ANALYZE DAMAGE',width=20,command=self.analyze_damage_handler)
+        #analyze_damage_systematic_button = tkinter.Button(button_group, text='ANALYZE DAMAGE SYSTEMATIC', width=25, command=self.analyze_damage_systematic_handler)
+        #analyze_gamma_button = tkinter.Button(button_group, text='ANALYZE GAMMA', width=20, command=self.analyze_gamma_handler)
+        #analyze_path_length_button = tkinter.Button(button_group, text='ANALYZE PATH LENGTH', width=20, command=self.analyze_path_length_handler)
+
+        #load_chart_gamma_button = tkinter.Button(button_group, text='LOAD GAMMA CHART', width=30, command=self.load_chart_gamma_handler)
+        #load_chart_search_length_button = tkinter.Button(button_group, text='LOAD SERACH LENGTH CHART', width=30, command=self.load_chart_srearch_length_handler)
+        #load_chart_damage_random_button = tkinter.Button(button_group, text='LOAD DAMAGE RANDOM CHART', width=30, command=self.load_chart_damage_random_handler)
+        #load_chart_damage_systematic_button = tkinter.Button(button_group, text='LOAD DAMAGE SYSTEMATIC CHART', width=30, command=self.load_chart_damage_systematic_handler)
+
         stop_button = tkinter.Button(button_group, text='STOP PATH',width=20,command=self.stop_path_handler)
 
         learning_button.grid(row=0, column=0)
         path_button.grid(row=1, column=0)
         special_path_button.grid(row=2, column=0)
-        omnicient_button.grid(row=3, column=0)
-        stop_button.grid(row=4, column=0)
+        omnicient_button.grid(row=0, column=1)
+        stop_button.grid(row=1, column=1)
 
-        mark_goal_button.grid(row=0, column=1)
-        analyze_damage_button.grid(row=1,column=1)
-        collect_data_button.grid(row=2, column=1)
+        mark_goal_button.grid(row=2, column=1)
+        #analyze_damage_button.grid(row=1,column=1)
+        #analyze_damage_systematic_button.grid(row=2,column=1)
+        #analyze_gamma_button.grid(row=3, column=1)
+        #analyze_path_length_button.grid(row=4, column=1)
+        #collect_data_button.grid(row=5, column=1)
+
+        #load_chart_gamma_button.grid(row=6, column=1)
+        #load_chart_search_length_button.grid(row=7, column=1)
+        #load_chart_damage_random_button.grid(row=8, column=1)
+        #load_chart_damage_systematic_button.grid(row=9, column=1)
+
+
+        return button_group
+
+    def setup_ui_buttom_analysis_panel(self, my_parent):
+        button_group = tkinter.LabelFrame(my_parent, text='ANALYSIS', pady=10, padx=10)
+
+        analyze_damage_button = tkinter.Button(button_group, text='ANALYZE DAMAGE', width=20, command=self.analyze_damage_handler)
+        analyze_damage_systematic_button = tkinter.Button(button_group, text='ANALYZE DAMAGE SYSTEMATIC', width=25, command=self.analyze_damage_systematic_handler)
+        analyze_gamma_button = tkinter.Button(button_group, text='ANALYZE GAMMA', width=20, command=self.analyze_gamma_handler)
+        analyze_path_length_button = tkinter.Button(button_group, text='ANALYZE PATH LENGTH', width=20, command=self.analyze_path_length_handler)
+
+        load_chart_gamma_button = tkinter.Button(button_group, text='LOAD GAMMA CHART', width=30, command=self.load_chart_gamma_handler)
+        load_chart_search_length_button = tkinter.Button(button_group, text='LOAD SERACH LENGTH CHART', width=30, command=self.load_chart_search_length_handler)
+        load_chart_damage_random_button = tkinter.Button(button_group, text='LOAD DAMAGE RANDOM CHART', width=30, command=self.load_chart_damage_random_handler)
+        load_chart_damage_systematic_button = tkinter.Button(button_group, text='LOAD DAMAGE SYSTEMATIC CHART', width=30, command=self.load_chart_damage_systematic_handler)
+        collect_data_button = tkinter.Button(button_group, text='COLLECT DATA',width=20,command=self.collect_data)
+
+
+        analyze_damage_button.grid(row=0, column=0)
+        analyze_damage_systematic_button.grid(row=1, column=0)
+        analyze_gamma_button.grid(row=2, column=0)
+        analyze_path_length_button.grid(row=3, column=0)
+        collect_data_button.grid(row=4, column=0)
+
+        load_chart_gamma_button.grid(row=0, column=1)
+        load_chart_search_length_button.grid(row=1, column=1)
+        load_chart_damage_random_button.grid(row=2, column=1)
+        load_chart_damage_systematic_button.grid(row=3, column=1)
 
         return button_group
 
@@ -110,14 +172,14 @@ class MemoryModel (object):
 
         rb1.grid(sticky="W", row=0, column=0)
         rb2.grid(sticky="W", row=0, column=1)
-        rb3.grid(sticky="W", row=1, column=0)
-        rb4.grid(sticky="W", row=1, column=1)
-        rb5.grid(sticky="W", row=2, column=0)
-        rb6.grid(sticky="W", row=2, column=1)
-        rb7.grid(sticky="W", row=3, column=0)
-        rb8.grid(sticky="W", row=3, column=1)
-        rb9.grid(sticky="W", row=4, column=0)
-        rb10.grid(sticky="W", row=4, column=1)
+        rb3.grid(sticky="W", row=0, column=2)
+        rb4.grid(sticky="W", row=0, column=3)
+        rb5.grid(sticky="W", row=0, column=4)
+        rb6.grid(sticky="W", row=1, column=0)
+        rb7.grid(sticky="W", row=1, column=1)
+        rb8.grid(sticky="W", row=1, column=2)
+        rb9.grid(sticky="W", row=1, column=3)
+        rb10.grid(sticky="W", row=1, column=4)
         return maze_list_group
 
     def setup_ui_config_panel(self,my_parent):
@@ -247,7 +309,8 @@ class MemoryModel (object):
 
         # Control Panel
         self.setup_ui_buttom_control_panel(self.buttons_frame).grid(row=0,column=0)
-        self.setup_ui_maze_list(self.buttons_frame).grid(row=1, column=0)
+        self.setup_ui_buttom_analysis_panel(self.buttons_frame).grid(row=1,column=0)
+        self.setup_ui_maze_list(self.buttons_frame).grid(row=2, column=0)
         ## Config Panel
 
         self.setup_ui_buttom_control_panel(self.buttons_frame)
@@ -402,6 +465,143 @@ class MemoryModel (object):
             self.init_damage_manager(int(self.damage_mode_var.get()), int(self.damage_count_var.get()))
             self.damage_manager.generate()
 
+    def load_chart_gamma_handler(self):
+        file_path = filedialog.askopenfilename()
+        #chart_manager.ChartManager.REPORT_FILE_NAME_GAMMA_STABLE
+        chart = graphs.GammaVariationsChart(file_path)
+        chart.plot()
+
+
+    def load_chart_search_length_handler(self):
+        file_path = filedialog.askopenfilename()
+        chart = graphs.PathLengthChart(file_path)
+        chart.plot()
+
+    def load_chart_damage_random_handler(self):
+        file_path = filedialog.askopenfilename()
+
+    def load_chart_damage_systematic_handler(self):
+        file_path = filedialog.askopenfilename()
+
+    def analyze_path_length_handler(self):
+        """
+        Analyze path length
+        :return:
+        """
+        damage_it =0
+        test_damage_count = 100
+        learn_steps = [1000,2000,3000]
+        #learn_steps = [1000, 2000, 5000, 10000, 15000,20000,30000,40000,50000]
+        special_length = []
+        omnicient_legnth = []
+        for learn_step in learn_steps:
+            self.iterations_var.set(learn_step)
+            self.start_learning()
+
+            # special
+            fp = FindPathParams()
+            fp.num_directions = self.NUM_DIRECTIONS
+            fp.special = False
+            fp.omnicient = False
+            fp.damage_flag = damage_it
+            fp.damage_mode = config.DAMAGE_MODE_SINGLE_CELL
+            fp.damage_count = test_damage_count
+            fp.use_new_weight_calc = False
+            fp.damage_avoid_reward_cell = True
+            # ui
+            self.damage_mode_var.set(fp.damage_mode)
+            self.damage_count_var.set(fp.damage_count)
+            self.find_path_special(fp)
+            special_length.append(self.rundata.search_length)
+
+
+            # Omnicient
+            fp = FindPathParams()
+            fp.num_directions = self.NUM_DIRECTIONS
+            fp.special = False
+            fp.omnicient = False
+            fp.damage_flag = damage_it
+            fp.damage_mode = config.DAMAGE_MODE_SINGLE_CELL
+            fp.damage_count = test_damage_count
+            fp.use_new_weight_calc = False
+            fp.damage_avoid_reward_cell = True
+            # ui
+            self.damage_mode_var.set(fp.damage_mode)
+            self.damage_count_var.set(fp.damage_count)
+            self.find_path_omnicient(fp)
+            omnicient_legnth.append(self.rundata.search_length)
+        chart = chart_manager.ChartManager()
+        chart.plot_search_length(learn_steps,special_length,omnicient_legnth)
+
+
+    def analyze_gamma_handler(self):
+        """
+        Game
+        :return:
+        """
+        print("Just a test")
+        self.damage_manager = None
+        test_damage_count=100
+        test_count =1
+        gamma_values = [0.97,0.95,0.9,0.87,0.85,0.8,0.77,0.75,0.7]
+        for gamma in gamma_values:
+            self.gamma_var.set(gamma)
+            damage_it = 0  # no damage
+            for i in range(test_count):  # omnicient
+                self.test_index = i
+                fp = FindPathParams()
+                fp.num_directions = self.NUM_DIRECTIONS
+                fp.special = False
+                fp.omnicient = False
+                fp.damage_flag = damage_it
+                fp.damage_mode = config.DAMAGE_MODE_SINGLE_CELL
+                fp.damage_count = test_damage_count
+                fp.use_new_weight_calc = False
+                fp.damage_avoid_reward_cell = True
+                # ui
+                self.damage_mode_var.set(fp.damage_mode)
+                self.damage_count_var.set(fp.damage_count)
+                self.find_path_omnicient(fp)
+        chart = chart_manager.ChartManager()
+        chart.plot_path_for_gamma_variations(self.run_data_set)
+        print("Finished Testing")
+
+    def analyze_damage_systematic_handler(self):
+        test_damage_count = 5
+        test_count = 3
+        # for each maze
+        self.damage_manager = None
+        for mze in config.MAZE_LIST:
+            self.change_maze(mze)  # load the maze
+            damage_it = 0  # no damage
+
+            for damage_it in [0, 1]:  # with and without damage
+                sum_find_path_length = 0
+                for i in range(test_count):  # omnicient
+                    self.test_index = i
+                    fp = FindPathParams()
+                    fp.num_directions = self.NUM_DIRECTIONS
+                    fp.special = False
+                    fp.omnicient = False
+                    fp.damage_flag = damage_it
+                    fp.damage_mode = config.DAMAGE_MODE_SPREAD_CELL
+                    fp.damage_count = test_damage_count
+                    fp.use_new_weight_calc = False
+                    fp.damage_avoid_reward_cell = True
+                    # ui
+                    self.damage_mode_var.set(fp.damage_mode)
+                    self.damage_count_var.set(fp.damage_count)
+                    self.find_path_omnicient(fp)
+                    self.update_status("Pausing test for 5 sec...")
+                    # time.sleep(3)
+                    sum_find_path_length += self.rundata.search_length
+
+                if not damage_it:  # control mode
+                    self.prev_find_path_search_length = sum_find_path_length / test_count
+                else:
+                    self.prev_find_path_search_length = 0
+
+        self.update_status("Done analyzing...")
 
     def analyze_damage_handler(self):
         test_damage_count = 100
@@ -437,7 +637,6 @@ class MemoryModel (object):
                     self.prev_find_path_search_length = sum_find_path_length/test_count
                 else:
                     self.prev_find_path_search_length =0
-
 
         self.update_status("Done analyzing...")
 
@@ -503,7 +702,7 @@ class MemoryModel (object):
         self.reportdata = report.ReportData(find_path_mode, damage_flag,self.get_damage_mode_str(damage_flag,damage_mode))
         self.damageble_cells_cumulative = self.generate_damageble_cells(damage_mode,damage_count)
 
-    def finalize_find_path(self,damage_flag):
+    def finalize_find_path(self,fp):
         self.reportdata.learning_length = self.rundata.learning_length
         self.reportdata.find_path_num_traps  = self.rundata.num_traps
         self.reportdata.find_path_search_length = self.rundata.search_length
@@ -516,9 +715,12 @@ class MemoryModel (object):
         self.reportdata.sum_of_damage_degrees = self.damage_manager.get_sum_of_damage_degree()
         self.reportdata.num_cells_damaged = self.damage_manager.get_num_cells_damaged()
         self.reportdata.total_cells = config.NUMBER_OF_CELLS_SQR
-        if damage_flag:
+        if fp.damage_flag:
             self.reportdata.control_path_length = self.prev_find_path_search_length
-
+        if not self.stop_path_flag: # only record if it is not aborded
+            print(f"PATH  DATA: {len(fp.run_time_data.path)}")
+            print(f"   {fp.run_time_data.path}")
+            self.run_data_set.record_data(self.current_maze,0,config.GAMMA,fp.run_time_data.path)
         self.reporter.report(self.reportdata)
 
     def find_path_handler_omnicient(self):
@@ -548,7 +750,7 @@ class MemoryModel (object):
         fp.omnicient = True
         fp.find_path_mode ="OMNICLIENT"
         r = self.find_path(fp)
-        self.finalize_find_path(fp.damage_flag)
+        self.finalize_find_path(fp)
         return r
 
     # Find path reguak
@@ -579,7 +781,7 @@ class MemoryModel (object):
         fp.omnicient = False
         fp.find_path_mode="REGULAR"
         r = self.find_path(fp)
-        self.finalize_find_path()
+        self.finalize_find_path(fp)
         return r
 
     def find_special_path_handler(self):
@@ -608,7 +810,7 @@ class MemoryModel (object):
         fp.omnicient = False
         fp.find_path_mode="SPECIAL"
         r = self.find_path(fp)
-        self.finalize_find_path()
+        self.finalize_find_path(fp)
         return r
 
     def find_path(self,fp):
@@ -1057,7 +1259,7 @@ class MemoryModel (object):
             if self.stop_path_flag:
                 break # asked to stop
             loop_count +=1
-            if loop_count>2000:
+            if loop_count>500:
                 self.stop_path_flag = True
                 break
 
@@ -1115,6 +1317,9 @@ class MemoryModel (object):
 
                     if trap_count > 2000:
                         return False
+                    # record the path
+                    w  = self.board()[int(new_row)][int(new_col)]
+                    fp.run_time_data.add_path(self.board()[int(new_row)][int(new_col)].weight)
                     rat.move(b_max[0], b_max[1])
             else:
                 continue
@@ -1123,7 +1328,7 @@ class MemoryModel (object):
         self.rundata.num_traps = trap_count
         self.rundata.search_length = rat.get_distance()
         self.update_status(f"find path completed search_length {self.rundata.search_length:>15.2f}")
-
+        # save the image
         test_title = self.generate_test_title(self.maze_name_var.get(),find_path_mode,damage_flag)
         self.save_board_to_file(test_title)
         self.save_board_as_image(test_title)

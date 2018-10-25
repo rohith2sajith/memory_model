@@ -1,11 +1,13 @@
 import datetime
 import config
 import os
+import rundata
+
 class Report(object):
-
-
     def __init__(self):
+        self.REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "report.csv")
         self.start()
+
 
     def start(self):
         self.report(f"------- {datetime.datetime.now()} -------")
@@ -25,8 +27,23 @@ class Report(object):
                     )
 
     def report(self,str):
-        with open(os.path.join(config.REPORT_FOLDER,"report.csv"), "a+") as f:
+        with open(self.REPORT_FILE_NAME, "a+") as f:
             f.write(f"{str}\n")
+
+class PathReport(object):
+    def __init__(self):
+        self.REPORT_FILE_NAME = os.path.join(config.REPORT_FOLDER, "path.csv")
+    def header(self):
+        return  f"{'grid':<12},{'iteration':<12},{'weight':<12}"
+
+    def report(self,run_data_set):
+        # write
+        with open(self.REPORT_FILE_NAME, "w+") as f:
+            f.write(f"{self.header()}\n")
+            for k,v in run_data_set.items():
+                parts = k.split("-")
+                f"{parts[0]},{parts[1]}"
+
 
 class ReportData(object):
     def __init__(self,find_path_mode,damage_flag,damage_mode):
