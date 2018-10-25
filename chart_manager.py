@@ -67,13 +67,13 @@ class ChartManager(object):
             density.covariance_factor = lambda: .25
             density._compute_covariance()
             xs = np.linspace(0, 100, 200)
-            plt.plot(xs, density(xs), color=self.get_color(index), label=f"{ds.gamma}")
+            plt.plot(xs, density(xs), color=self.get_color(index), label=f"{ds.gamma}", linestyle=f"{self.get_linestyle(index)}")
             #plt.plot(x_cords,ds.paths,color=self.get_color(index),label=f"{ds.gamma}")
             index +=1
 
-        plt.xlabel('gamma')
-        plt.ylabel('weight')
-        plt.title("Weight Plot")
+        plt.title("Density distribution for various gamma")
+        plt.xlabel('Weight buckets')
+        plt.ylabel('density')
         plt.legend()
         plt.show()
 

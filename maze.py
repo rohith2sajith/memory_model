@@ -308,7 +308,7 @@ class Maze(object):
         reward_matrix = []
         for f in range (config.NUMBER_OF_CELLS_SQR):
             if f == reward_row*config.NUMBER_OF_CELLS+reward_col:
-                reward_matrix.append(1000)
+                reward_matrix.append(100)
             else:
                 reward_matrix.append(1)
         weights = []

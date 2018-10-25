@@ -639,3 +639,51 @@ OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,  
 OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    4068.390,           0,         590,   169.55000,     0.81161,     0.34333,     3.44241
 OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1193.775,           0,           0,   235.92500,     0.00000,     0.00000,     0.00000
 OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    6499.035,           0,         610,   235.92500,     0.73786,     0.32111,     5.44410
+------- 2018-10-25 09:21:31.482468 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 15:37:03.789285 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1057.782,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1030.883,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     965.110,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     979.050,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1022.856,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1034.635,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    8714.284,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1740.406,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1172.140,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+------- 2018-10-25 15:38:38.460687 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 15:38:59.610511 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     982.048,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1007.885,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     999.401,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1102.482,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     965.588,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     942.737,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    2383.351,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    5375.068,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1142.451,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+------- 2018-10-25 15:40:26.012511 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     950.311,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     981.695,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     954.881,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     966.379,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1013.362,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    2446.224,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,1           ,   16274.951,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    2826.545,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    2970.326,           0,           0,    19.00000,     0.00000,     0.00000,     0.00000
+------- 2018-10-25 15:48:19.014524 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     978.600,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1036.927,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     997.983,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     995.282,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1033.547,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    2304.102,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,1           ,   16431.998,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    5008.895,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1312.759,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
