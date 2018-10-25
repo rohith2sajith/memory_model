@@ -19,6 +19,10 @@ class ChartManager(object):
         index = index%len(self.CHART_COLOR_LIST)
         return self.CHART_COLOR_LIST[index]
 
+    def get_linestyle(self,index):
+        index = index%len(self.CHART_LINE_STYLE)
+        return self.CHART_LINE_STYLE[index]
+
     def save_path_for_gamma_variations(self,run_time_data_set:rundata.RunDataSet):
         """
         Save as csv

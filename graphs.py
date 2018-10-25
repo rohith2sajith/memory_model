@@ -303,7 +303,7 @@ class GammaVariationsChart(object):
             density.covariance_factor = lambda: .25
             density._compute_covariance()
             xs = np.linspace(0, 100, 200)
-            plt.plot(xs, density(xs), color=cm.get_color(index), label=f"{self.gamma_value[index]}")
+            plt.plot(xs, density(xs), color=cm.get_color(index), linestyle=f"{cm.get_linestyle(index)}",label=f"{self.gamma_value[index]}")
             index +=1
 
         plt.legend()
@@ -312,7 +312,26 @@ class GammaVariationsChart(object):
         plt.ylabel('weight')
         plt.show()
 
-#chart = GammaVariationsChart()
-#chart.plot()
-#chart = PathLengthChart()
-#chart.plot()
+
+class ImpactOfDamage(object):
+    def __init__(self,filename):
+        self.damage_degree_ratio = []
+        self.damage_path_ratio = []
+        self.load(filename)
+
+    def load(self,filename):
+        with open(filename, "r") as f:
+            for line in f:
+                line = line.strip("\n")
+                parts = line.split(',')
+                if parts[0].strip():
+                    self.damage_degree_ratio.append(float(parts[0].strip()))
+                    self.damage_path_ratio.append(float(parts[1].strip()))
+
+    def plot(self,damage_type):
+        ax = plt.plot(self.damage_degree_ratio, self.damage_path_ratio, color="#000000", linestyle="--")
+        #plt.legend()
+        plt.title(f"Path Length v.s. {damage_type} Damage Proportion")
+        plt.xlabel("Damage Propotion (%)")
+        plt.ylabel("Damage Length/Control Length)")
+        plt.show()

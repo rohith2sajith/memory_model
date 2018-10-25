@@ -20,6 +20,9 @@ class DamageGeneratorSimple(object):
         # idx given
         return self.STATIC_DAMAGE_LIST[idx]
 
+    def set_damage_list(self,damage_list):
+        self.STATIC_DAMAGE_LIST = damage_list
+
     def get_index(self):
         return self.index
 

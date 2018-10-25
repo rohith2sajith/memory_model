@@ -90,11 +90,15 @@ class DamageManager(object):
         if self.cell_to_damage_cumulative_spread:
             # we expand existing
             cc = copy.deepcopy(self.cell_to_damage_cumulative_spread)
+            counter =0
             for k, v in cc.items():
                 for a in self.find_adjacent_cells(k[0], k[1]):
                     ck = (a[0], a[1])
                     if ck not in damageble_cells and not self.is_already_in_the_list(ck):
-                        damageble_cells[ck] = [damage_degree, damage_index]
+                        if counter % 4 == 0:  # every other
+                            damageble_cells[ck] = [damage_degree, damage_index]
+                        counter+=1
+
 
         else:
             # first time

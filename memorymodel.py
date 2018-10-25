@@ -83,16 +83,16 @@ class MemoryModel (object):
             os.remove(self.BOARD_REPORT_FILE)
 
     def setup_ui_buttom_control_panel(self,my_parent):
-        button_group = tkinter.LabelFrame(my_parent, text='CONTROL PANEL',pady=10,padx=10)
-        learning_button = tkinter.Button(button_group, text='START LEARNING',width=20,command=self.start_learning)
+        button_group = tkinter.LabelFrame(my_parent, text='CONTROL PANEL',pady=10,padx=29,background="gray83")
+        learning_button = tkinter.Button(button_group, text='START LEARNING',width=20,command=self.start_learning,fg="blue2")
 
-        path_button = tkinter.Button(button_group, text='FIND PATH', width=20, command=self.find_path_handler_regular)
+        path_button = tkinter.Button(button_group, text='FIND PATH', width=20, command=self.find_path_handler_regular,fg="blue2")
 
         #collect_data_button = tkinter.Button(button_group, text='COLLECT DATA',width=20,command=self.collect_data)
-        special_path_button = tkinter.Button(button_group, text='SPECIAL PATH',width=20,command=self.find_special_path_handler)
-        mark_goal_button = tkinter.Button(button_group, text='SELECT REWARD SPACE',width=20,command=self.start_marking_reward_handler)
+        special_path_button = tkinter.Button(button_group, text='SPECIAL PATH',width=20,command=self.find_special_path_handler,fg="blue2")
+        mark_goal_button = tkinter.Button(button_group, text='SELECT REWARD SPACE',width=20,command=self.start_marking_reward_handler,fg="blue2")
 
-        omnicient_button = tkinter.Button(button_group, text='OMNICIENT SUCCESSOR',width=20,command=self.find_path_handler_omnicient)
+        omnicient_button = tkinter.Button(button_group, text='OMNICIENT SUCCESSOR',width=20,command=self.find_path_handler_omnicient,fg="blue2")
 
 
 
@@ -106,7 +106,7 @@ class MemoryModel (object):
         #load_chart_damage_random_button = tkinter.Button(button_group, text='LOAD DAMAGE RANDOM CHART', width=30, command=self.load_chart_damage_random_handler)
         #load_chart_damage_systematic_button = tkinter.Button(button_group, text='LOAD DAMAGE SYSTEMATIC CHART', width=30, command=self.load_chart_damage_systematic_handler)
 
-        stop_button = tkinter.Button(button_group, text='STOP PATH',width=20,command=self.stop_path_handler)
+        stop_button = tkinter.Button(button_group, text='STOP PATH',width=20,command=self.stop_path_handler,fg="blue2")
 
         learning_button.grid(row=0, column=0)
         path_button.grid(row=1, column=0)
@@ -130,18 +130,23 @@ class MemoryModel (object):
         return button_group
 
     def setup_ui_buttom_analysis_panel(self, my_parent):
-        button_group = tkinter.LabelFrame(my_parent, text='ANALYSIS', pady=10, padx=10)
+        button_group = tkinter.LabelFrame(my_parent, text='ANALYSIS', pady=10, padx=5,background="gray83")
+        button_group_analyze = tkinter.LabelFrame(button_group, text='ANALYZE', pady=20, padx=10,borderwidth=2,background="gray83")
+        button_group_load_chart = tkinter.LabelFrame(button_group, text='LOAD CHARTS', pady=10, padx=10,borderwidth=2,background="gray83")
 
-        analyze_damage_button = tkinter.Button(button_group, text='ANALYZE DAMAGE', width=20, command=self.analyze_damage_handler)
-        analyze_damage_systematic_button = tkinter.Button(button_group, text='ANALYZE DAMAGE SYSTEMATIC', width=25, command=self.analyze_damage_systematic_handler)
-        analyze_gamma_button = tkinter.Button(button_group, text='ANALYZE GAMMA', width=20, command=self.analyze_gamma_handler)
-        analyze_path_length_button = tkinter.Button(button_group, text='ANALYZE PATH LENGTH', width=20, command=self.analyze_path_length_handler)
+        button_group_analyze.grid(row=0, column=0)
+        button_group_load_chart.grid(row=0,column=1)
 
-        load_chart_gamma_button = tkinter.Button(button_group, text='LOAD GAMMA CHART', width=30, command=self.load_chart_gamma_handler)
-        load_chart_search_length_button = tkinter.Button(button_group, text='LOAD SERACH LENGTH CHART', width=30, command=self.load_chart_search_length_handler)
-        load_chart_damage_random_button = tkinter.Button(button_group, text='LOAD DAMAGE RANDOM CHART', width=30, command=self.load_chart_damage_random_handler)
-        load_chart_damage_systematic_button = tkinter.Button(button_group, text='LOAD DAMAGE SYSTEMATIC CHART', width=30, command=self.load_chart_damage_systematic_handler)
-        collect_data_button = tkinter.Button(button_group, text='COLLECT DATA',width=20,command=self.collect_data)
+        analyze_damage_button = tkinter.Button(button_group_analyze, text='RANDOM DAMAGE', width=20, command=self.analyze_damage_handler,fg="blue2")
+        analyze_damage_systematic_button = tkinter.Button(button_group_analyze, text='SYSTEMATIC DAMAGE', width=20, command=self.analyze_damage_systematic_handler,fg="blue2")
+        analyze_gamma_button = tkinter.Button(button_group_analyze, text='GAMMA VARIATIONS', width=20, command=self.analyze_gamma_handler,fg="blue2")
+        analyze_path_length_button = tkinter.Button(button_group_analyze, text='SEARCH LENGTH', width=20, command=self.analyze_path_length_handler,fg="blue2")
+
+        load_chart_gamma_button = tkinter.Button(button_group_load_chart, text='GAMMA', width=20, command=self.load_chart_gamma_handler,fg="blue2")
+        load_chart_search_length_button = tkinter.Button(button_group_load_chart, text='SERACH LENGTH', width=20, command=self.load_chart_search_length_handler,fg="blue2")
+        load_chart_damage_random_button = tkinter.Button(button_group_load_chart, text='RANDOM DAMAGE', width=20, command=self.load_chart_damage_random_handler,fg="blue2")
+        load_chart_damage_systematic_button = tkinter.Button(button_group_load_chart, text='SYSTEMATIC DAMAGE', width=20, command=self.load_chart_damage_systematic_handler,fg="blue2")
+        collect_data_button = tkinter.Button(button_group_load_chart, text='COLLECT DATA',width=20,command=self.collect_data,fg="blue2")
 
 
         analyze_damage_button.grid(row=0, column=0)
@@ -150,25 +155,25 @@ class MemoryModel (object):
         analyze_path_length_button.grid(row=3, column=0)
         collect_data_button.grid(row=4, column=0)
 
-        load_chart_gamma_button.grid(row=0, column=1)
-        load_chart_search_length_button.grid(row=1, column=1)
-        load_chart_damage_random_button.grid(row=2, column=1)
-        load_chart_damage_systematic_button.grid(row=3, column=1)
+        load_chart_gamma_button.grid(row=0, column=0)
+        load_chart_search_length_button.grid(row=1, column=0)
+        load_chart_damage_random_button.grid(row=2, column=0)
+        load_chart_damage_systematic_button.grid(row=3, column=0)
 
         return button_group
 
     def setup_ui_maze_list(self,my_parent):
-        maze_list_group = tkinter.LabelFrame(my_parent, text='Maze List',pady=10,padx=10)
-        rb1 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[0], value=config.MAZE_LIST[0], command=self.change_maze_handler)
-        rb2 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[1], value=config.MAZE_LIST[1], command=self.change_maze_handler)
-        rb3 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[2], value=config.MAZE_LIST[2],command=self.change_maze_handler)
-        rb4 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[3], value=config.MAZE_LIST[3],command=self.change_maze_handler)
-        rb5 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[4], value=config.MAZE_LIST[4], command=self.change_maze_handler)
-        rb6 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[5], value=config.MAZE_LIST[5], command=self.change_maze_handler)
-        rb7 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[6], value=config.MAZE_LIST[6], command=self.change_maze_handler)
-        rb8 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[7], value=config.MAZE_LIST[7], command=self.change_maze_handler)
-        rb9 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[8], value=config.MAZE_LIST[8], command=self.change_maze_handler)
-        rb10 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[9], value=config.MAZE_LIST[9], command=self.change_maze_handler)
+        maze_list_group = tkinter.LabelFrame(my_parent, text='Maze List',pady=10,padx=34,background="gray83")
+        rb1 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[0], value=config.MAZE_LIST[0], command=self.change_maze_handler,background="gray83")
+        rb2 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[1], value=config.MAZE_LIST[1], command=self.change_maze_handler,background="gray83")
+        rb3 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[2], value=config.MAZE_LIST[2],command=self.change_maze_handler,background="gray83")
+        rb4 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[3], value=config.MAZE_LIST[3],command=self.change_maze_handler,background="gray83")
+        rb5 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[4], value=config.MAZE_LIST[4], command=self.change_maze_handler,background="gray83")
+        rb6 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[5], value=config.MAZE_LIST[5], command=self.change_maze_handler,background="gray83")
+        rb7 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[6], value=config.MAZE_LIST[6], command=self.change_maze_handler,background="gray83")
+        rb8 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[7], value=config.MAZE_LIST[7], command=self.change_maze_handler,background="gray83")
+        rb9 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[8], value=config.MAZE_LIST[8], command=self.change_maze_handler,background="gray83")
+        rb10 = tkinter.Radiobutton(maze_list_group, var=self.maze_name_var, text=config.MAZE_LIST[9], value=config.MAZE_LIST[9], command=self.change_maze_handler,background="gray83")
 
         rb1.grid(sticky="W", row=0, column=0)
         rb2.grid(sticky="W", row=0, column=1)
@@ -183,26 +188,26 @@ class MemoryModel (object):
         return maze_list_group
 
     def setup_ui_config_panel(self,my_parent):
-        config_panel_group = tkinter.LabelFrame(my_parent, text='RUN CONFIGURATION')
+        config_panel_group = tkinter.LabelFrame(my_parent, text='RUN CONFIGURATION',pady=10,padx=20,background="gray83")
 
-        tkinter.Label(config_panel_group, text='ITERATIONS',width=10).grid(sticky="W",row=0,column=0)
+        tkinter.Label(config_panel_group, text='ITERATIONS',width=10,background="gray83").grid(sticky="W",row=0,column=0)
         tkinter.Entry(config_panel_group, width=10,textvar=self.iterations_var).grid(sticky="W",row=0,column=1)
-        tkinter.Label(config_panel_group, text='GAMMA',width=10).grid(sticky="W",row=1,column=0)
+        tkinter.Label(config_panel_group, text='GAMMA',width=10,background="gray83").grid(sticky="W",row=1,column=0)
         tkinter.Entry(config_panel_group, width=10,textvar=self.gamma_var).grid(sticky="W",row=1,column=1)
-        tkinter.Label(config_panel_group, text='ALPHA', width=10).grid(sticky="W", row=2, column=0)
+        tkinter.Label(config_panel_group, text='ALPHA', width=10,background="gray83").grid(sticky="W", row=2, column=0)
         tkinter.Entry(config_panel_group, width=10, textvar=self.alpha_var).grid(sticky="W", row=2, column=1)
-        tkinter.Label(config_panel_group, text='GRID SIZE', width=10).grid(sticky="W", row=3, column=0)
+        tkinter.Label(config_panel_group, text='GRID SIZE', width=10,background="gray83").grid(sticky="W", row=3, column=0)
         tkinter.Entry(config_panel_group, width=10, textvar=self.grid_size_var).grid(sticky="W", row=3, column=1)
-        tkinter.Button(config_panel_group, text='APPLY', width=20, command=self.apply_config_handler).grid(sticky="W", row=3, column=2)
+        tkinter.Button(config_panel_group, text='APPLY', width=20, command=self.apply_config_handler,fg="blue2").grid(sticky="W", row=3, column=2)
 
         return config_panel_group
 
     def setup_ui_damage_stategy(self,my_parent):
-        damage_stategy_group = tkinter.LabelFrame(my_parent, text='Damage Strategy')
+        damage_stategy_group = tkinter.LabelFrame(my_parent, text='Damage Strategy',pady=10,padx=10,background="gray83")
 
-        rb1 = tkinter.Radiobutton(damage_stategy_group, var=self.damage_mode_var, text="Single cell every time", value="0")
-        rb2 = tkinter.Radiobutton(damage_stategy_group, var=self.damage_mode_var, text="Spread every time", value="1")
-        rb3 = tkinter.Radiobutton(damage_stategy_group, var=self.damage_mode_var, text="Both", value="2")
+        rb1 = tkinter.Radiobutton(damage_stategy_group, var=self.damage_mode_var, text="Single cell every time", value="0",background="gray83")
+        rb2 = tkinter.Radiobutton(damage_stategy_group, var=self.damage_mode_var, text="Spread every time", value="1",background="gray83")
+        rb3 = tkinter.Radiobutton(damage_stategy_group, var=self.damage_mode_var, text="Both", value="2",background="gray83")
 
         rb1.grid(sticky="W", row=0, column=1)
         rb2.grid(sticky="W", row=1, column=1)
@@ -211,13 +216,13 @@ class MemoryModel (object):
         return damage_stategy_group
 
     def setup_ui_damage_configuration(self,my_parent):
-        damage_group = tkinter.LabelFrame(my_parent, text='DAMAGE CONFIGURATION')
-        tkinter.Checkbutton(damage_group, text="Damage", var=self.damage_var).grid(sticky="W",row=0,column=1)
-        tkinter.Checkbutton(damage_group, text="Avoid reward cell", var=self.damage_avoid_reward_cell_var).grid(sticky="W", row=1, column=1)
+        damage_group = tkinter.LabelFrame(my_parent, text='DAMAGE CONFIGURATION',pady=10,padx=20,background="gray83")
+        tkinter.Checkbutton(damage_group, text="Damage", var=self.damage_var,background="gray83").grid(sticky="W",row=0,column=1)
+        tkinter.Checkbutton(damage_group, text="Avoid reward cell", var=self.damage_avoid_reward_cell_var,background="gray83").grid(sticky="W", row=1, column=1)
 
         self.setup_ui_damage_stategy(damage_group).grid(sticky="W",row=2,column=1)
 
-        tkinter.Label(damage_group, text='Damage Count',width=20).grid(sticky="W",row=3,column=0)
+        tkinter.Label(damage_group, text='Damage Count',width=20,background="gray83").grid(sticky="W",row=3,column=0)
         tkinter.Entry(damage_group, width=5, textvariable=self.damage_count_var).grid(sticky="W",row=3,column=1)
 
         return damage_group
@@ -302,7 +307,7 @@ class MemoryModel (object):
         self.top_frame = tkinter.Frame(self.root)
         self.top_frame.grid(row=0, column=0)
         ###   TOP FRAME ####
-        self.buttons_frame = tkinter.Frame(self.top_frame)
+        self.buttons_frame = tkinter.Frame(self.top_frame,background="red2")
         self.config_frame = tkinter.Frame(self.top_frame)
         self.buttons_frame.grid(row=0,column=0)
         self.config_frame.grid(row=1, column=0)
@@ -479,9 +484,13 @@ class MemoryModel (object):
 
     def load_chart_damage_random_handler(self):
         file_path = filedialog.askopenfilename()
+        chart = graphs.ImpactOfDamage(file_path)
+        chart.plot("Random")
 
     def load_chart_damage_systematic_handler(self):
         file_path = filedialog.askopenfilename()
+        chart = graphs.ImpactOfDamage(file_path)
+        chart.plot("Systematic")
 
     def analyze_path_length_handler(self):
         """
@@ -566,18 +575,23 @@ class MemoryModel (object):
         chart.plot_path_for_gamma_variations(self.run_data_set)
         print("Finished Testing")
 
+
     def analyze_damage_systematic_handler(self):
-        test_damage_count = 5
-        test_count = 3
+        test_damage_count = 20
+        test_count =1
         # for each maze
         self.damage_manager = None
+        damage_list = [0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.6, 0.05, 0.025, 0]
+        self.damage_generator.set_damage_list(damage_list)
         for mze in config.MAZE_LIST:
             self.change_maze(mze)  # load the maze
-            damage_it = 0  # no damage
+            damage_it = 0 # no damage
 
-            for damage_it in [0, 1]:  # with and without damage
+            for damage_it in [0,1]:  # with and without damage
                 sum_find_path_length = 0
-                for i in range(test_count):  # omnicient
+                damage_degree_ratio =0
+                damage_path_ratio =0
+                for i in range(test_count): # omnicient
                     self.test_index = i
                     fp = FindPathParams()
                     fp.num_directions = self.NUM_DIRECTIONS
@@ -588,32 +602,41 @@ class MemoryModel (object):
                     fp.damage_count = test_damage_count
                     fp.use_new_weight_calc = False
                     fp.damage_avoid_reward_cell = True
-                    # ui
+                    #ui
                     self.damage_mode_var.set(fp.damage_mode)
                     self.damage_count_var.set(fp.damage_count)
                     self.find_path_omnicient(fp)
                     self.update_status("Pausing test for 5 sec...")
-                    # time.sleep(3)
+                    #time.sleep(3)
                     sum_find_path_length += self.rundata.search_length
+                    if damage_it:
+                        self.reportdata.update()
+                        damage_degree_ratio += self.reportdata.fph_dmg_dgr_rio
+                        damage_path_ratio += self.reportdata.fph_dmg_pth_rio
 
-                if not damage_it:  # control mode
-                    self.prev_find_path_search_length = sum_find_path_length / test_count
+
+                if not damage_it: # control mode
+                    self.prev_find_path_search_length = sum_find_path_length/test_count
                 else:
-                    self.prev_find_path_search_length = 0
-
+                    self.prev_find_path_search_length =0
+                    damage_degree_ratio = damage_degree_ratio/test_count
+                    damage_path_ratio = damage_path_ratio/test_count
+                    self.reporter.report_systematic_damage((1-damage_degree_ratio)*100,damage_path_ratio)
         self.update_status("Done analyzing...")
+
 
     def analyze_damage_handler(self):
         test_damage_count = 100
-        test_count =3
+        test_count =1
         # for each maze
         self.damage_manager = None
         for mze in config.MAZE_LIST:
             self.change_maze(mze)  # load the maze
             damage_it = 0 # no damage
-
             for damage_it in [0,1]:  # with and without damage
                 sum_find_path_length = 0
+                damage_degree_ratio =0
+                damage_path_ratio =0
                 for i in range(test_count): # omnicient
                     self.test_index = i
                     fp = FindPathParams()
@@ -632,12 +655,18 @@ class MemoryModel (object):
                     self.update_status("Pausing test for 5 sec...")
                     #time.sleep(3)
                     sum_find_path_length += self.rundata.search_length
+                    if damage_it:
+                        self.reportdata.update()
+                        damage_degree_ratio += self.reportdata.fph_dmg_dgr_rio
+                        damage_path_ratio += self.reportdata.fph_dmg_pth_rio
 
                 if not damage_it: # control mode
                     self.prev_find_path_search_length = sum_find_path_length/test_count
                 else:
                     self.prev_find_path_search_length =0
-
+                    damage_degree_ratio = damage_degree_ratio/test_count
+                    damage_path_ratio = damage_path_ratio/test_count
+                    self.reporter.report_random_damage(((1-damage_degree_ratio)*100,damage_path_ratio))
         self.update_status("Done analyzing...")
 
     def analyze_damage_handler_full(self):

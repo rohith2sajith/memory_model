@@ -168,3 +168,452 @@ fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_
 fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
 ------- 2018-10-24 20:02:18.251993 -------
 fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 20:17:50.462562 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 20:18:49.469699 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 20:20:11.660505 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     956.735,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1001.210,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     956.328,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     965.294,           0,          93,    18.60000,     0.97933,     0.89667,     0.99369
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1083.992,           0,          93,    18.60000,     0.97933,     0.89667,     1.11588
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     982.131,           0,          93,    18.60000,     0.97933,     0.89667,     1.01102
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     980.924,           0,           0,    49.08000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1001.050,           0,           0,    49.08000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     989.762,           0,           0,    49.08000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1027.336,           0,         170,    49.08000,     0.94547,     0.81000,     1.03711
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1100.858,           0,         170,    49.08000,     0.94547,     0.81000,     1.11133
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     995.844,           0,         170,    49.08000,     0.94547,     0.81000,     1.00532
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     999.674,           0,           0,    86.46400,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1325.698,           0,           0,    86.46400,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1052.559,           0,           0,    86.46400,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1064.039,           0,         235,    86.46400,     0.90393,     0.73778,     0.94499
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1139.049,           0,         235,    86.46400,     0.90393,     0.73778,     1.01161
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1385.341,           0,         235,    86.46400,     0.90393,     0.73778,     1.23035
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1132.129,           0,           0,   129.37120,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1047.444,           0,           0,   129.37120,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1090.050,           0,           0,   129.37120,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1227.925,           0,         300,   129.37120,     0.85625,     0.66556,     1.12667
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1121.790,           0,         300,   129.37120,     0.85625,     0.66556,     1.02928
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1223.981,           0,         300,   129.37120,     0.85625,     0.66556,     1.12305
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1129.995,           0,           0,   173.49696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1193.564,           0,           0,   173.49696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1099.739,           0,           0,   173.49696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1356.300,           0,         349,   173.49696,     0.80723,     0.61111,     1.18859
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1314.831,           0,         349,   173.49696,     0.80723,     0.61111,     1.15225
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1359.750,           0,         349,   173.49696,     0.80723,     0.61111,     1.19161
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1149.189,           0,           0,   222.57696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1096.102,           0,           0,   222.57696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1121.453,           0,           0,   222.57696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,1           ,    6782.626,           0,         389,   222.57696,     0.75269,     0.56667,     6.04378
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,1           ,    6948.550,           0,         389,   222.57696,     0.75269,     0.56667,     6.19163
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,1           ,    7118.622,           0,         389,   222.57696,     0.75269,     0.56667,     6.34318
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1058.275,           0,           0,   274.68880,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1101.093,           0,           0,   274.68880,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     996.600,           0,           0,   274.68880,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1126.931,           0,         430,   274.68880,     0.69479,     0.52111,     1.07124
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1279.429,           0,         430,   274.68880,     0.69479,     0.52111,     1.21620
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1143.054,           0,         430,   274.68880,     0.69479,     0.52111,     1.08656
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     971.584,           0,           0,   325.06040,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1011.948,           0,           0,   325.06040,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1059.787,           0,           0,   325.06040,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1518.116,           0,         468,   325.06040,     0.63882,     0.47889,     1.49651
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1129.059,           0,         468,   325.06040,     0.63882,     0.47889,     1.11299
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    2392.307,           0,         468,   325.06040,     0.63882,     0.47889,     2.35825
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1049.583,           0,           0,   371.52268,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1021.566,           0,           0,   371.52268,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1121.228,           0,           0,   371.52268,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1472.150,           0,         498,   371.52268,     0.58720,     0.44556,     1.38344
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1367.294,           0,         498,   371.52268,     0.58720,     0.44556,     1.28490
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1227.735,           0,         498,   371.52268,     0.58720,     0.44556,     1.15375
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1092.068,           0,           0,   412.34320,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1106.801,           0,           0,   412.34320,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1193.479,           0,           0,   412.34320,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1342.827,           0,         515,   412.34320,     0.54184,     0.42667,     1.18752
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1834.537,           0,         515,   412.34320,     0.54184,     0.42667,     1.62236
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1395.826,           0,         515,   412.34320,     0.54184,     0.42667,     1.23439
+------- 2018-10-24 20:52:15.827489 -------
+------- 2018-10-24 20:54:28.054322 -------
+------- 2018-10-24 20:55:24.340170 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 20:55:40.445887 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     981.402,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1047.099,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     980.425,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     973.590,           0,          91,    18.20000,     0.97978,     0.89889,     0.97070
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     967.448,           0,          91,    18.20000,     0.97978,     0.89889,     0.96458
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1012.177,           0,          91,    18.20000,     0.97978,     0.89889,     1.00917
+------- 2018-10-24 21:07:55.855130 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1056.219,           0,           0,    18.40000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     959.348,           0,           0,    18.40000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     949.763,           0,           0,    18.40000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1070.983,           0,          92,    18.40000,     0.97956,     0.89778,     1.08350
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     951.253,           0,          92,    18.40000,     0.97956,     0.89778,     0.96237
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     960.606,           0,          92,    18.40000,     0.97956,     0.89778,     0.97184
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1004.951,           0,           0,    47.72000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1053.893,           0,           0,    47.72000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1052.148,           0,           0,    47.72000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     989.831,           0,         165,    47.72000,     0.94698,     0.81667,     0.95452
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1017.838,           0,         165,    47.72000,     0.94698,     0.81667,     0.98152
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1017.367,           0,         165,    47.72000,     0.94698,     0.81667,     0.98107
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1098.418,           0,           0,    83.57600,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1038.790,           0,           0,    83.57600,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1316.645,           0,           0,    83.57600,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1000.854,           0,         227,    83.57600,     0.90714,     0.74778,     0.86934
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1043.268,           0,         227,    83.57600,     0.90714,     0.74778,     0.90618
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     977.909,           0,         227,    83.57600,     0.90714,     0.74778,     0.84941
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1024.998,           0,           0,   125.66080,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1078.959,           0,           0,   125.66080,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1094.480,           0,           0,   125.66080,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1201.548,           0,         294,   125.66080,     0.86038,     0.67333,     1.12700
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1135.962,           0,         294,   125.66080,     0.86038,     0.67333,     1.06548
+------- 2018-10-24 21:49:10.728559 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 21:49:21.536537 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1065.750,           0,           0,    18.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1028.670,           0,          90,    18.00000,     0.98000,     0.90000,     0.96521
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     976.877,           0,           0,    48.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1104.404,           0,         168,    48.00000,     0.94667,     0.81333,     1.13055
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     975.420,           0,           0,    87.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1206.326,           0,         244,    87.20000,     0.90311,     0.72889,     1.23672
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1104.530,           0,           0,   130.16000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1201.236,           0,         302,   130.16000,     0.85538,     0.66444,     1.08755
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1172.252,           0,           0,   173.72800,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1409.064,           0,         348,   173.72800,     0.80697,     0.61333,     1.20201
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1103.302,           0,           0,   221.77536,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1317.791,           0,         386,   221.77536,     0.75358,     0.57111,     1.19441
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1070.174,           0,           0,   273.26752,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1170.768,           0,         427,   273.26752,     0.69637,     0.52444,     1.09400
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1028.551,           0,           0,   323.11696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1173.768,           0,         461,   323.11696,     0.64098,     0.48667,     1.14119
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1120.618,           0,           0,   370.34792,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    7770.442,           0,         499,   370.34792,     0.58850,     0.44444,     6.93407
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1110.376,           0,           0,   411.66696,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,1           ,    7621.971,           0,         518,   411.66696,     0.54259,     0.42333,     6.86431
+------- 2018-10-24 21:54:58.701489 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 21:57:14.862219 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 21:59:39.942740 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     976.484,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1006.922,           0,          91,    18.20000,     0.97978,     0.89889,     1.03117
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1016.324,           0,           0,    48.16000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,     973.778,           0,         168,    48.16000,     0.94649,     0.81333,     0.95814
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1011.502,           0,           0,    86.32800,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1490.000,           0,         238,    86.32800,     0.90408,     0.73444,     1.47306
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1107.059,           0,           0,   128.46240,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1096.236,           0,         296,   128.46240,     0.85726,     0.67000,     0.99022
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1101.079,           0,           0,   172.96992,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1168.118,           0,         350,   172.96992,     0.80781,     0.61000,     1.06088
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1136.983,           0,           0,   222.03104,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1145.469,           0,         389,   222.03104,     0.75330,     0.56667,     1.00746
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     982.099,           0,           0,   272.26992,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1147.477,           0,         421,   272.26992,     0.69748,     0.53111,     1.16839
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1017.388,           0,           0,   320.77816,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1541.593,           0,         455,   320.77816,     0.64358,     0.49333,     1.51525
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1043.149,           0,           0,   366.36188,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    4867.047,           0,         490,   366.36188,     0.59293,     0.45444,     4.66573
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1222.636,           0,           0,   408.43028,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,1           ,   13782.602,           0,         516,   408.43028,     0.54619,     0.42556,    11.27286
+------- 2018-10-24 22:20:20.173972 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:25:34.921483 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:33:31.537842 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:34:08.990262 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:34:27.537740 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1005.507,           0,           0,     4.50000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1005.459,           0,          90,     4.50000,     0.99500,     0.90000,     0.99995
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1011.735,           0,           0,    28.00000,     0.00000,     0.00000,     0.00000
+------- 2018-10-24 22:35:19.988159 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1019.269,           0,           0,     0.25000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     972.150,           0,           5,     0.25000,     0.99972,     0.99444,     0.95377
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     992.816,           0,           0,     2.10000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     976.980,           0,          37,     2.10000,     0.99767,     0.95889,     0.98405
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1009.161,           0,           0,     6.25000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1343.592,           0,          83,     6.25000,     0.99306,     0.90778,     1.33139
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1119.852,           0,           0,    13.10000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1118.303,           0,         137,    13.10000,     0.98544,     0.84778,     0.99862
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1095.197,           0,           0,    23.25000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1110.750,           0,         203,    23.25000,     0.97417,     0.77444,     1.01420
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1098.013,           0,           0,    36.55000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1107.564,           0,         266,    36.55000,     0.95939,     0.70444,     1.00870
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1038.521,           0,           0,    52.45000,     0.00000,     0.00000,     0.00000
+------- 2018-10-24 22:41:20.600316 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:46:43.672887 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     974.770,           0,           2,     0.40000,     0.99956,     0.99778,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     980.627,           0,          13,     2.92000,     0.99676,     0.98556,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1061.822,           0,          34,     9.13600,     0.98985,     0.96222,     0.00000
+------- 2018-10-24 22:49:39.739851 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:49:50.856209 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     969.216,           0,           2,     0.40000,     0.99956,     0.99778,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     990.748,           0,           9,     2.12000,     0.99764,     0.99000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     984.597,           0,          24,     6.49600,     0.99278,     0.97333,     0.00000
+------- 2018-10-24 22:51:04.495303 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:53:30.953688 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 22:54:57.949311 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1112.377,           0,           0,     0.25000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     946.224,           0,           5,     0.25000,     0.99972,     0.99444,     0.85063
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1036.220,           0,           0,     1.35000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1042.031,           0,          22,     1.35000,     0.99850,     0.97556,     1.00561
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1074.167,           0,           0,     4.15000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1083.350,           0,          56,     4.15000,     0.99539,     0.93778,     1.00855
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1083.789,           0,           0,     9.55000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1117.290,           0,         108,     9.55000,     0.98939,     0.88000,     1.03091
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1087.590,           0,           0,    18.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1104.159,           0,         181,    18.60000,     0.97933,     0.79889,     1.01524
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1090.724,           0,           0,    31.40000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1110.329,           0,         256,    31.40000,     0.96511,     0.71556,     1.01797
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1031.108,           0,           0,    47.80000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    6505.416,           0,         323,    47.80000,     0.94689,     0.64111,     6.30915
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1052.392,           0,           0,    69.95000,     0.00000,     0.00000,     0.00000
+------- 2018-10-24 22:57:24.093044 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     953.039,           0,           0,     0.25000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     980.793,           0,           5,     0.25000,     0.99972,     0.99444,     1.02912
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1071.145,           0,           0,     0.95000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1046.082,           0,          14,     0.95000,     0.99894,     0.98444,     0.97660
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     995.606,           0,           0,     2.55000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     991.076,           0,          32,     2.55000,     0.99717,     0.96444,     0.99545
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1124.574,           0,           0,     5.55000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1129.662,           0,          60,     5.55000,     0.99383,     0.93333,     1.00452
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1083.055,           0,           0,    10.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1802.835,           0,          93,    10.20000,     0.98867,     0.89667,     1.66458
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1056.666,           0,           0,    16.65000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1415.733,           0,         129,    16.65000,     0.98150,     0.85667,     1.33981
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1061.236,           0,           0,    25.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1160.057,           0,         162,    25.00000,     0.97222,     0.82000,     1.09312
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1113.030,           0,           0,    37.75000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1349.655,           0,         196,    37.75000,     0.95806,     0.78222,     1.21260
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1074.608,           0,           0,    54.67500,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    5933.899,           0,         233,    54.67500,     0.93925,     0.74111,     5.52192
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1112.876,           0,           0,    78.42500,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    6399.510,           0,         274,    78.42500,     0.91286,     0.69556,     5.75043
+------- 2018-10-24 23:05:57.895396 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:06:58.408183 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:07:51.896875 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:08:11.587798 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:08:55.172351 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:11:17.405587 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:12:04.498522 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:14:38.630101 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:15:01.137428 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     943.671,           0,           0,     0.25000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1039.795,           0,           5,     0.25000,     0.99972,     0.99444,     1.10186
+------- 2018-10-24 23:17:28.301218 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:17:38.261476 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:18:16.326949 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1027.703,           0,           0,     1.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1034.735,           0,           5,     1.00000,     0.99889,     0.99444,     1.00684
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1099.966,           0,           0,     3.40000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1001.201,           0,          13,     3.40000,     0.99622,     0.98556,     0.91021
+------- 2018-10-24 23:27:12.620629 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:28:07.914883 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:31:12.761217 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:32:13.212748 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:33:06.333983 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:34:27.954026 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:34:50.383617 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:35:44.446500 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:36:42.749974 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:36:58.403798 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:37:52.713584 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:38:06.881088 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:39:47.757684 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:39:58.023721 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:40:21.961404 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:41:07.259611 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:42:12.434743 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:42:26.368063 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:42:50.166417 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:43:15.185872 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:43:36.040863 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:44:02.707961 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:44:31.905742 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:44:54.943782 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:45:26.998119 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:45:58.027277 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:46:07.285092 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:46:29.019096 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:46:41.408095 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:47:09.316381 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:47:37.917735 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:48:01.568454 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:48:24.317280 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:49:34.581624 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     992.043,           0,           0,     4.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1038.488,           0,          20,     4.00000,     0.99556,     0.97778,     1.04682
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1016.008,           0,           0,    13.80000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     990.616,           0,          53,    13.80000,     0.98467,     0.94111,     0.97501
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1336.695,           0,           0,    34.44000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1056.331,           0,         117,    34.44000,     0.96173,     0.87000,     0.79026
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1115.388,           0,           0,    68.55200,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1269.932,           0,         205,    68.55200,     0.92383,     0.77222,     1.13856
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1078.217,           0,           0,   114.84160,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    6276.186,           0,         300,   114.84160,     0.87240,     0.66667,     5.82090
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1221.188,           0,           0,   170.51616,     0.00000,     0.00000,     0.00000
+------- 2018-10-24 23:51:21.839252 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     995.907,           0,           0,     1.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     977.985,           0,          20,     1.00000,     0.99889,     0.97778,     0.98200
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1022.527,           0,           0,     3.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1048.459,           0,          52,     3.60000,     0.99600,     0.94222,     1.02536
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1335.724,           0,           0,     8.95000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1395.741,           0,         107,     8.95000,     0.99006,     0.88111,     1.04493
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1165.785,           0,           0,    17.80000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    4279.164,           0,         177,    17.80000,     0.98022,     0.80333,     3.67063
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1097.135,           0,           0,    30.05000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,   15628.618,           0,         245,    30.05000,     0.96661,     0.72778,    14.24493
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1107.798,           0,           0,    45.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    6479.397,           0,         303,    45.20000,     0.94978,     0.66333,     5.84890
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1056.229,           0,           0,    64.05000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    6506.172,           0,         357,    64.05000,     0.92883,     0.60333,     6.15981
+------- 2018-10-24 23:53:53.768975 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:54:53.040497 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:55:47.271982 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:55:56.173695 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:56:04.494072 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:56:13.820361 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:56:30.363119 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:56:58.588597 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:57:40.978288 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:58:30.847513 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:59:06.210846 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-24 23:59:22.458519 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:00:21.422327 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:00:43.641586 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:01:03.465057 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:01:35.047965 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:01:56.556568 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:02:36.992547 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:03:03.462825 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:03:42.009554 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:04:09.293852 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:04:28.636883 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:04:53.924447 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:05:31.332453 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:05:46.755264 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:07:18.014034 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:10:14.739979 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:12:23.134105 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:14:29.122021 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:14:48.255833 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:15:17.978759 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:15:49.464843 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:16:40.150550 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:17:43.852408 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:18:12.601051 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:18:38.779178 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:19:23.238551 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:19:56.732395 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:20:33.825883 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:21:34.890273 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:22:09.020500 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:23:17.617549 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:24:04.289426 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
