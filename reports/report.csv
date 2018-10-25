@@ -617,3 +617,25 @@ fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_
 fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
 ------- 2018-10-25 00:24:04.289426 -------
 fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-10-25 00:28:20.202451 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1012.033,           0,           0,     1.00000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1009.695,           0,          20,     1.00000,     0.99889,     0.97778,     0.99769
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     945.892,           0,           0,     3.65000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,     971.268,           0,          53,     3.65000,     0.99594,     0.94111,     1.02683
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1053.143,           0,           0,     9.55000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1012.708,           0,         118,     9.55000,     0.98939,     0.86889,     0.96161
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1150.297,           0,           0,    20.10000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,   14933.403,           0,         211,    20.10000,     0.97767,     0.76556,    12.98221
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1070.788,           0,           0,    35.75000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    9415.000,           0,         312,    35.75000,     0.96028,     0.65222,     8.79259
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1161.614,           0,           0,    56.10000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    7063.841,           0,         406,    56.10000,     0.93767,     0.54778,     6.08106
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1050.517,           0,           0,    81.60000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,0           ,    1475.845,           0,         489,    81.60000,     0.90933,     0.45556,     1.40487
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1055.647,           0,           0,   120.75000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    8393.651,           0,         549,   120.75000,     0.86583,     0.38889,     7.95119
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1181.842,           0,           0,   169.55000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    4068.390,           0,         590,   169.55000,     0.81161,     0.34333,     3.44241
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1193.775,           0,           0,   235.92500,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,SPREAD      ,       0.000,           1,           0,1           ,    6499.035,           0,         610,   235.92500,     0.73786,     0.32111,     5.44410

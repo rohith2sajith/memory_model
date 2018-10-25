@@ -307,7 +307,7 @@ class MemoryModel (object):
         self.top_frame = tkinter.Frame(self.root)
         self.top_frame.grid(row=0, column=0)
         ###   TOP FRAME ####
-        self.buttons_frame = tkinter.Frame(self.top_frame,background="red2")
+        self.buttons_frame = tkinter.Frame(self.top_frame)
         self.config_frame = tkinter.Frame(self.top_frame)
         self.buttons_frame.grid(row=0,column=0)
         self.config_frame.grid(row=1, column=0)
