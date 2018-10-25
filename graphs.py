@@ -307,9 +307,9 @@ class GammaVariationsChart(object):
             index +=1
 
         plt.legend()
-        plt.title("Gamma value plot")
-        plt.xlabel('gamma')
-        plt.ylabel('weight')
+        plt.title("Density distribution for various gamma")
+        plt.xlabel('Weight buckets')
+        plt.ylabel('density')
         plt.show()
 
 
