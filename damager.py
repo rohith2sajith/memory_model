@@ -95,8 +95,8 @@ class DamageManager(object):
                 for a in self.find_adjacent_cells(k[0], k[1]):
                     ck = (a[0], a[1])
                     if ck not in damageble_cells and not self.is_already_in_the_list(ck):
-                        if counter % 4 == 0:  # every other
-                            damageble_cells[ck] = [damage_degree, damage_index]
+                        #if counter % 4 == 0:  # every other
+                        damageble_cells[ck] = [damage_degree, damage_index]
                         counter+=1
 
 

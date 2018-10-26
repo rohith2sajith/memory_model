@@ -553,7 +553,7 @@ class MemoryModel (object):
         print("Finished Testing")
 
     def analyze_damage(self,test_damage_count,damage_list,damage_mode):
-        test_count = 1
+        test_count = 5
         # for each maze
         self.damage_manager = None
         if damage_list:
@@ -615,7 +615,7 @@ class MemoryModel (object):
 
     def analyze_damage_systematic_handler(self):
         damage_list = [0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.6, 0.05, 0.025, 0]
-        self.analyze_damage(20,damage_list,config.DAMAGE_MODE_SPREAD_CELL)
+        self.analyze_damage(15,damage_list,config.DAMAGE_MODE_SPREAD_CELL)
 
     def analyze_damage_handler(self):
         self.analyze_damage(100, None, config.DAMAGE_MODE_SINGLE_CELL)
