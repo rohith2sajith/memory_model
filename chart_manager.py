@@ -53,7 +53,7 @@ class ChartManager(object):
                 f.write(f"{line}\n")
                 data_over = not at_least_one
 
-    def plot_path_for_gamma_variations(self,run_time_data_set:rundata.RunDataSet):
+    def plot_path_for_gamma_variations_density(self,run_time_data_set:rundata.RunDataSet):
         """
         Plot the path
         :return:
@@ -74,6 +74,28 @@ class ChartManager(object):
         plt.title("Density distribution for various gamma")
         plt.xlabel('Weight buckets')
         plt.ylabel('density')
+        plt.legend()
+        plt.show()
+
+    def plot_path_for_gamma_variations(self,run_time_data_set:rundata.RunDataSet):
+        """
+        Plot the path
+        :return:
+        """
+        self.save_path_for_gamma_variations(run_time_data_set)
+        index = 0
+        gammas = []
+        for ds in run_time_data_set.data_set:
+            gammas.append(ds.gamma)
+
+        for ds in run_time_data_set.data_set:
+            plt.plot(ds.paths, color=self.get_color(index), label=f"{ds.gamma}", linestyle=f"{self.get_linestyle(index)}")
+            #plt.plot(x_cords,ds.paths,color=self.get_color(index),label=f"{ds.gamma}")
+            index +=1
+
+        plt.title("Weights for various gamma")
+        plt.xlabel('Path')
+        plt.ylabel('Weight')
         plt.legend()
         plt.show()
 

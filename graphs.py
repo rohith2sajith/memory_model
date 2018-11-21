@@ -276,6 +276,9 @@ class GammaVariationsChart(object):
             self.gamma_value  = []
             for line in f:
                 line = line.strip("\n")
+                line = line.strip()
+                if line.endswith(','):
+                    line = line[:-1]
                 parts = line.split(',')
                 values = []
                 if header:
@@ -292,9 +295,11 @@ class GammaVariationsChart(object):
                         g = g.strip()
                         if g:
                             self.weights_for_gamma[index].append(float(g))
+                        else:
+                            self.weights_for_gamma[index].append(None)
                         index +=1
 
-    def plot(self):
+    def plot_density(self):
         cm = chart_manager.ChartManager()
         index = 0
         for g in self.weights_for_gamma:
@@ -312,6 +317,18 @@ class GammaVariationsChart(object):
         plt.ylabel('density')
         plt.show()
 
+    def plot(self):
+        cm = chart_manager.ChartManager()
+        index = 0
+        for g in self.weights_for_gamma:
+            plt.plot(g, color=cm.get_color(index), linestyle=f"{cm.get_linestyle(index)}",label=f"{self.gamma_value[index]}")
+            index +=1
+
+        plt.legend()
+        plt.title("Weights for various gamma")
+        plt.xlabel('Path')
+        plt.ylabel('Weight')
+        plt.show()
 
 class ImpactOfDamage(object):
     def __init__(self,filename):

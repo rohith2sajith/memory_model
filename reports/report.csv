@@ -323,3 +323,58 @@ OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,  
 OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1568.316,           0,         502,   403.96772,     0.55115,     0.44111,     1.39088
 OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1648.749,           0,         502,   403.96772,     0.55115,     0.44111,     1.46221
 OMNICIENT   ,SINGLE CELL ,       0.000,           1,           0,0           ,    1454.299,           0,         502,   403.96772,     0.55115,     0.44111,     1.28976
+------- 2018-10-27 13:26:29.836706 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-13 19:34:44.520319 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-13 19:39:04.545419 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-13 19:57:05.423667 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,   11093.409,         194,        1000,0           ,     262.356,           0,           0,     0.40000,     0.00000,     0.00000,     0.00000
+------- 2018-11-13 19:58:49.493359 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,   12720.396,         249,        1000,0           ,     519.223,           0,           0,     0.40000,     0.00000,     0.00000,     0.00000
+------- 2018-11-21 07:38:48.454515 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     931.615,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     966.130,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     955.506,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,     958.041,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+OMNICIENT   ,NO DAMAGING ,       0.000,           1,           0,0           ,    1057.514,           0,           0,    18.20000,     0.00000,     0.00000,     0.00000
+------- 2018-11-21 07:42:03.526663 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 07:43:13.526966 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 07:50:12.343408 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 07:51:04.804462 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 07:56:11.696373 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 07:56:50.759526 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 07:58:10.852290 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:00:16.555952 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:05:26.539057 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:08:00.236141 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:10:44.114878 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:14:12.758793 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:14:57.134879 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:16:41.541025 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:18:03.343387 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:21:11.995365 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:23:47.941287 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
+------- 2018-11-21 08:29:45.787650 -------
+fph_mode    ,damage_mode ,l_length    ,l_num_sqrs  ,l_time      ,f_aborted   ,f_sr_lnth   ,f_num_trps  ,f_num_dmgd  ,f_totdm_dgr ,f_dmdgr_rio ,f_dmcnt_rio ,f_dmpth_rio 
